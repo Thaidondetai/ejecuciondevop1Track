@@ -17,6 +17,7 @@ jobs:
 
             - name : instalar dependencias
               run: |
+                    cd ejercicioTrackDevops/ejercicioTrackDevops1-main
                     pip install -r requirements.txt
 
             - name : Ejecutar pruebas
