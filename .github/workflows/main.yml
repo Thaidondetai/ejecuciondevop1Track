@@ -17,12 +17,12 @@ jobs:
 
             - name : instalar dependencias
               run: |
-                    cd ejercicioTrackDevops/ejercicioTrackDevops1-main
+                    cd ejercicioTrackDevops1-main
                     pip install -r requirements.txt
 
             - name : Ejecutar pruebas
               run: |
-                    cd ejercicioTrackDevops1
+                    cd ejercicioTrackDevops1-main
                     python manage.py test
 
 
